@@ -63,7 +63,7 @@ async def sender_bH(event):
                 print(f"Forwarded media message to channel {i}")
 
             else:
-                if "buy" in message_text and "@" not in message_text and "http" not in message_text:
+                if "buy" in message_text and "@s" not in message_text and "http" not in message_text:
                     await steallootdealUser.send_message(i, message_text)
                     print(f"Forwarded text message to channel {i}")
 
