@@ -64,9 +64,24 @@ async def sender_bH(event):
 
             else:
                 if ("buy" in message_text or "abov" in message_text or "sl" in message_text) and "paid" not in message_text  and "screen" not in message_text and "@s" not in message_text and "http" not in message_text:
-                    await steallootdealUser.send_message(i, message_text)
-                    print(f"Forwarded text message to channel {i}")
-                    print(event)
+                    if("-1001765480090" in str(getattr(event, "chat_id"))):
+                        await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy4: " + message_text)
+                        print(f"Forwarded text message to channel {i}")
+                    if ("-1002112609260" in str(getattr(event, "chat_id"))):
+                        await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy1: " + message_text)
+                        print(f"Forwarded text message to channel {i}")
+                    if ("-1001743298988" in str(getattr(event, "chat_id"))):
+                        await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy2: " + message_text)
+                        print(f"Forwarded text message to channel {i}")
+                    if ("-1001354398480" in str(getattr(event, "chat_id"))):
+                        await steallootdealUser.send_message(i, "HighAccuracyStrategy1: if bid/ask not much diff , take trade, this will be stock of the day, if SL hit , take trade again one more time with target 2 " + message_text)
+                        print(f"Forwarded text message to channel {i}")
+                    if ("-1001338152969" in str(getattr(event, "chat_id"))):
+                        await steallootdealUser.send_message(i, "HighAccuracyStrategy2: if bid/ask not much diff , take trade , if SL hit , take trade again one more time with target 2" + message_text)
+                        print(f"Forwarded text message to channel {i}")
+                    if ("-1001703153225" in str(getattr(event, "chat_id"))):
+                        await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy3 - take all trade: " + message_text)
+                        print(f"Forwarded text message to channel {i}")
 
         except Exception as e:
             print(f"Error forwarding message to channel {i}: {e}")
