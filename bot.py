@@ -65,37 +65,37 @@ async def sender_bH(event):
             else:
                 if ("buy" in message_text or "abov" in message_text or "sl" in message_text) and "paid" not in message_text  and "screen" not in message_text and "@s" not in message_text and "http" not in message_text:
                     if("-1001765480090" in str(getattr(event, "chat_id"))):
-                        await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy4-NF: " + message_text)
+                        await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy4-NF: 2 LOT BUY\n" + str(message_text).upper())
                         print(f"Forwarded text message to channel {i}")
                     if ("-1002112609260" in str(getattr(event, "chat_id"))):
-                        await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy1-JP: take trade always " + message_text)
+                        await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy1-JP: 4 LOT BUY\n" + str(message_text).upper())
                         print(f"Forwarded text message to channel {i}")
                     if ("-1001743298988" in str(getattr(event, "chat_id"))):
-                        await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy2-NSen: take trade always " + message_text)
+                        await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy2-NSen: 4 LOT BUY\n" + str(message_text).upper())
                         print(f"Forwarded text message to channel {i}")
                     if ("-1001354398480" in str(getattr(event, "chat_id"))):
-                        await steallootdealUser.send_message(i, "HighAccuracyStrategy1-P: if bid/ask not much diff , take trade, this will be stock of the day, if SL hit , take trade again one more time with target 2 " + message_text)
+                        await steallootdealUser.send_message(i, "HighAccuracyStrategy1-P: \n" + str(message_text).upper())
                         print(f"Forwarded text message to channel {i}")
                     if ("-1001338152969" in str(getattr(event, "chat_id"))):
-                        await steallootdealUser.send_message(i, "HighAccuracyStrategy2-E: if bid/ask not much diff , take trade , if SL hit , take trade again one more time with target 2" + message_text)
+                        await steallootdealUser.send_message(i, "HighAccuracyStrategy2-E: \n" + str(message_text).upper())
                         print(f"Forwarded text message to channel {i}")
                     if ("-1001703153225" in str(getattr(event, "chat_id"))):
-                        await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy3-S - take all trade: " + message_text)
+                        await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy3-S - 2 LOT BUY\n" + str(message_text).upper())
                         print(f"Forwarded text message to channel {i}")
                     if ("-1002011826706" in str(getattr(event, "chat_id"))):
                         if ("banknifty" in message_text or "nifty" in message_text or "finnifty" in message_text):
-                            await steallootdealUser.send_message(i, "Test Strategy: " + message_text)
+                            await steallootdealUser.send_message(i, "Test Strategy: \n" + str(message_text).upper())
                             print(f"Forwarded text message to channel {i}")
                     if ("-1001929125767" in str(getattr(event, "chat_id"))):
-                        await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy6-Adv: - take all trade on first half always 40 point SL , 40 point Target if it is not mentioned if first two trade success we better avoid all other trades - many trade will come in a day we observe them " + message_text)
+                        await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy6-Adv: 2 LOT BUY\n" + str(message_text).upper())
                         print(f"Forwarded text message to channel {i}")
                     if ("-1001208644175" in str(getattr(event, "chat_id"))):
                         if ("banknifty" in message_text or "nifty" in message_text or "finnifty" in message_text):
-                            await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy5-G: take all trade" + message_text)
+                            await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy5-G: 2 LOT BUY\n" + str(message_text).upper())
                             print(f"Forwarded text message to channel {i}")
                     if ("-1001802384367" in str(getattr(event, "chat_id"))):
                         if ("banknifty" in message_text or "nifty" in message_text or "finnifty" in message_text):
-                            await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy7-V: " + message_text)
+                            await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy7-V: 1 LOT BUY\n" + str(message_text).upper())
                             print(f"Forwarded text message to channel {i}")
 
         except Exception as e:
