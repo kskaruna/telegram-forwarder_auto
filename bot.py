@@ -109,6 +109,23 @@ async def sender_bH(event):
                     if ("-1001244806515" in str(getattr(event, "chat_id"))):
                         await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy11-OT: 2 LOT BUY\n" + str(message_text).upper())
                         print(f"Forwarded text message to channel {i}")
+                    if ("-1001703153225" in str(getattr(event, "chat_id"))):
+                        await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy12-NSureShot: 2 LOT BUY\n" + str(message_text).upper())
+                        print(f"Forwarded text message to channel {i}")
+                    if ("-1001803479771" in str(getattr(event, "chat_id"))):
+                        await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy13-Wi-Finnifty: 2 LOT BUY\n" + str(message_text).upper())
+                        print(f"Forwarded text message to channel {i}")
+                    if ("-1001978004005" in str(getattr(event, "chat_id"))):
+                        await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy13-Wi-Sensex: 4 LOT BUY\n" + str(message_text).upper())
+                        print(f"Forwarded text message to channel {i}")
+                    if ("-1001722772670" in str(getattr(event, "chat_id"))):
+                        await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy13-Wi-Nifty: 2 LOT BUY\n" + str(message_text).upper())
+                        print(f"Forwarded text message to channel {i}")
+                    if ("-1001556675688" in str(getattr(event, "chat_id"))):
+                        await steallootdealUser.send_message(i, "IndexStrategyHighAccuracy13-Wi-BankNifty: 2 LOT BUY\n" + str(message_text).upper())
+                        print(f"Forwarded text message to channel {i}")
+                    
+                    
                     
 
         except Exception as e:
